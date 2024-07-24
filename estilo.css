@@ -71,7 +71,7 @@ margin-top: 8px;
     border-radius: 50%;
     position: absolute;
     z-index: 1;
-    left: 51%;
+    left: 50%;
     transform: translatey(-8%);
 }
 
@@ -88,15 +88,8 @@ margin-top: 8px;
 
 
 .light #botao button{
-    position: initial;
-    width: 32px;
-    height: 32px;
-    border: 0;
-    border-radius: 50%;
-    position: absolute;
-    left: 44%;
-    transform: translatey(-8%);
-
+    left: 44%; /* Ajuste o valor conforme necessário */
+    transform: translateY(-8%); 
 }
 
 ul{
@@ -108,6 +101,13 @@ ul{
 
 }
 
+
+@media (min-width: 768px) {
+    .light #botao button {
+        left: 47%; /* Ajuste o valor conforme necessário para telas maiores */
+        transform: translateY(-8%);
+    }
+}
 ul li a {
 
 display: flex;
