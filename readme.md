@@ -1,7 +1,7 @@
 <h1 align="center"> DEV.LINKS </h1>
 
 <p align="center">
-   programa desenvolvido para apresentar links </P>
+   programa desenvolvido, com ajuda da Rocketseat, para apresentar links </P>
 
 <p align="center">
   <img alt="Projeto Devlinks" src="./Untitled.png" width="100%">
